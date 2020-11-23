@@ -82,5 +82,4 @@ trainErr = labelsAndPreds.filter(lambda p: p[0] != p[1]).count() / float(parsedD
 
 # Print some stuff
 print("Training Error = " + str(trainErr))
-root@663033fc9467:/opt/bitnami/spark# vi run-spark-ex_2.py 
 
